@@ -2,20 +2,25 @@
   font-family: Outfit;
   src: url(/FONTS/Outfit-VariableFont_wght.ttf);
 }
+*{
+  box-sizing: border-box;
+}
 .run{
   position: relative;
   top:3%;
   left:5%;
-  width:240px;
+  width:270px;
   border-radius: 3%;
 }
 div{
   position: absolute;
+  display: inline;
   background-color: hsl(0, 0%, 100%);
-  top: 30%;
+  top: 10%;
   right: 40%;
-  width:270px;
+  width:300px;
   height:450px;
+  box-shadow: hsl(220, 15%, 55%) 0px 5px 10px 0px;
   border-radius: 5%;
 }
 body{
@@ -23,14 +28,24 @@ body{
   
 }
 h1{
-  font-size: 23px;
-  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 20px;
+  box-sizing: content-box;
+  font-weight: 700 ;
+  width:250px;
   font-family: Outfit;
 }
 .Mentor{
-  color:grey;
-  font-size: 17px;
+  position: relative;
+  margin-left: 20px;
   text-align: center;
+  color:grey;
+  font-size: 15px;
+  font-weight: 400;
   font-family: Outfit;
+  box-sizing: content-box;
+  width:265px;
 
 }
