@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Outfit;
+  src: url(/FONTS/Outfit-VariableFont_wght.ttf);
+}
+.run{
+  position: relative;
+  top:3%;
+  left:5%;
+  width:240px;
+  border-radius: 3%;
+}
+div{
+  position: absolute;
+  background-color: hsl(0, 0%, 100%);
+  top: 30%;
+  right: 40%;
+  width:270px;
+  height:450px;
+  border-radius: 5%;
+}
+body{
+  background-color:  hsl(212, 45%, 89%) ;
+  
+}
+h1{
+  font-size: 23px;
+  text-align: center;
+  font-family: Outfit;
+}
+.Mentor{
+  color:grey;
+  font-size: 17px;
+  text-align: center;
+  font-family: Outfit;
+
+}
